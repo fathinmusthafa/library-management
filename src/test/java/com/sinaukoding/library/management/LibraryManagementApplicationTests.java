@@ -1,4 +1,4 @@
-package com.sinaukoding.library_management;
+package com.sinaukoding.library.management;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

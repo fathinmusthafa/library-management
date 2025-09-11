@@ -1,13 +1,13 @@
-package com.sinaukoding.library_management;
+package com.sinaukoding.library.management;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LibraryManagementApplication {
+public class MainApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LibraryManagementApplication.class, args);
+		SpringApplication.run(MainApp.class, args);
 	}
 
 }
