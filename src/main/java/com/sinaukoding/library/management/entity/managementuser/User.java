@@ -4,10 +4,7 @@ import com.sinaukoding.library.management.entity.app.BaseEntity;
 import com.sinaukoding.library.management.model.enums.Role;
 import com.sinaukoding.library.management.model.enums.Status;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDateTime;
@@ -33,7 +30,7 @@ public class User extends BaseEntity {
     private String id;
 
     @Column(nullable = false, unique = true)
-    private String nama;
+    private String name;
 
     @Column(nullable = false, unique = true)
     private String username;
@@ -46,11 +43,11 @@ public class User extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private Status status;
+    private Status status = Status.PENDING;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private Role role;
+    private Role role = Role.MEMBER;
 
     private String token;
     private LocalDateTime expiredTokenAt;

@@ -1,0 +1,569 @@
+2025-09-13_10:11:25.271 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_10:11:25.785 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-13_10:11:25.785 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukrycw44p7cruupkosx3ibmj9q3" of relation "m_user" does not exist, skipping
+2025-09-13_10:11:25.787 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-13_10:11:25.787 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukg3htmq02oxd6h13cjm978n0q9" of relation "m_user" does not exist, skipping
+2025-09-13_10:11:25.800 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-13_10:11:25.800 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukbrmb54ld0gqstogmb812xw951" of relation "m_user" does not exist, skipping
+2025-09-13_10:11:25.824 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_11:41:03.487 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_11:41:03.902 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-13_11:41:03.902 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk645tec1gn2o13y2oew1lglx1q" of relation "m_user" does not exist, skipping
+2025-09-13_11:41:04.025 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [/Users/habiburrahman/SinauKoding/TugasAkhir/library-management/target/classes/com/sinaukoding/library/management/controller/managementuser/UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userServiceImpl' defined in file [/Users/habiburrahman/SinauKoding/TugasAkhir/library-management/target/classes/com/sinaukoding/library/management/service/managementuser/impl/UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-13_11:41:04.045 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.sinaukoding.library.management.service.managementuser.impl.UserServiceImpl required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+2025-09-13_11:42:06.879 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_11:42:07.402 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_11:42:07.552 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2d2251e1-51c5-4bea-9269-1fad87accb96
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-13_11:46:49.907 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_11:46:50.483 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_11:46:50.627 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3a240685-5cfe-4554-828e-22ff25226c43
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-13_12:00:51.350 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s263ms).
+2025-09-13_12:08:06.508 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-09-13_12:08:06.557 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-09-13_12:08:26.038 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_12:08:26.573 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_12:08:26.711 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2b8a50d8-f2e8-4f73-9889-8a22ac16eab6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-13_12:08:36.837 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-09-13_12:08:36.880 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-09-13_12:08:37.793 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-09-13_12:08:37.829 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-09-13_12:08:42.645 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-09-13_12:08:47.704 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-09-13_12:08:47.748 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-09-13_12:23:49.274 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_12:23:49.906 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_12:24:01.869 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-09-13_12:24:16.380 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-09-13_12:26:36.861 [http-nio-8080-exec-5] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_12:29:06.888 [http-nio-8080-exec-8] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_12:29:06.889 [http-nio-8080-exec-8] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (4ddebf57-bf3b-403b-8336-f14fa691c7af, null, null, null, null, admin@gmail.com, null, null, null, ADMIN, AKTIF, null, admin, ADMIN).
+2025-09-13_12:29:06.900 [http-nio-8080-exec-8] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (4ddebf57-bf3b-403b-8336-f14fa691c7af, null, null, null, null, admin@gmail.com, null, null, null, ADMIN, AKTIF, null, admin, ADMIN).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_by" of relation "m_user]
+2025-09-13_12:40:03.766 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_12:40:03.767 [http-nio-8080-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (c04fc67d-8430-4e6e-98ac-f0eb5cc3e6fe, null, null, null, null, admin@gmail.com, null, null, null, ADMIN, AKTIF, null, admin, ADMIN).
+2025-09-13_12:40:03.767 [http-nio-8080-exec-4] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (c04fc67d-8430-4e6e-98ac-f0eb5cc3e6fe, null, null, null, null, admin@gmail.com, null, null, null, ADMIN, AKTIF, null, admin, ADMIN).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_by" of relation "m_user]
+2025-09-13_12:40:41.371 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_12:40:41.372 [http-nio-8080-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (4633a00a-0b3c-4feb-a262-3ff049466a49, null, null, null, null, admin@gmail.com, null, null, null, ADMIN, AKTIF, null, admin, ADMIN).
+2025-09-13_12:40:41.375 [http-nio-8080-exec-6] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (4633a00a-0b3c-4feb-a262-3ff049466a49, null, null, null, null, admin@gmail.com, null, null, null, ADMIN, AKTIF, null, admin, ADMIN).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_by" of relation "m_user]
+2025-09-13_12:41:53.564 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_12:41:54.173 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_12:42:40.129 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_12:42:40.749 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_12:55:52.948 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s689ms).
+2025-09-13_13:04:43.854 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:04:44.569 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:04:54.155 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_13:04:57.477 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:04:57.477 [http-nio-8080-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (45723bf8-ec1f-49f4-8067-0b87d0f8929d, null, null, null, null, admin@gmail.com, null, null, $2a$10$kYlCgO2js/ap9tuQ5kM7TOG/lXEwhwbVcHLEtyY29vj.16pnFRbvm, ADMIN, AKTIF, null, admin, ADMIN).
+2025-09-13_13:04:57.480 [http-nio-8080-exec-3] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (45723bf8-ec1f-49f4-8067-0b87d0f8929d, null, null, null, null, admin@gmail.com, null, null, $2a$10$kYlCgO2js/ap9tuQ5kM7TOG/lXEwhwbVcHLEtyY29vj.16pnFRbvm, ADMIN, AKTIF, null, admin, ADMIN).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_by" of relation "m_user]
+2025-09-13_13:08:42.627 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:08:43.461 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:13:57.146 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:13:57.764 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:14:14.747 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:14:14.748 [http-nio-8080-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (fe25d1f0-838d-40c6-a8a1-d8d172e87869, admin, null, null, null, admin@gmail.com, null, null, $2a$10$q4WJMBT/KRszydScMPJNYuhVeMwyS3h3Yt9JUpGXKl7E4xjZNB5C., ADMIN, AKTIF, null, admin, ADMIN).
+2025-09-13_13:14:14.751 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (fe25d1f0-838d-40c6-a8a1-d8d172e87869, admin, null, null, null, admin@gmail.com, null, null, $2a$10$q4WJMBT/KRszydScMPJNYuhVeMwyS3h3Yt9JUpGXKl7E4xjZNB5C., ADMIN, AKTIF, null, admin, ADMIN).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_date" of relation "m_user]
+2025-09-13_13:15:01.557 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:15:02.170 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:15:28.688 [http-nio-8080-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:15:28.688 [http-nio-8080-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "modified_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (9e65fbad-80de-44c9-92d4-6161688a0b66, admin, 2025-09-13 13:15:28.580945+07, null, null, admin@gmail.com, null, null, $2a$10$kzGxzAHFeUZa0xpbPjc50u/I31xKX2OmrXbM5/qWh2bbmkFRcipIe, ADMIN, AKTIF, null, admin, ADMIN).
+2025-09-13_13:15:28.691 [http-nio-8080-exec-1] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "modified_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (9e65fbad-80de-44c9-92d4-6161688a0b66, admin, 2025-09-13 13:15:28.580945+07, null, null, admin@gmail.com, null, null, $2a$10$kzGxzAHFeUZa0xpbPjc50u/I31xKX2OmrXbM5/qWh2bbmkFRcipIe, ADMIN, AKTIF, null, admin, ADMIN).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [modified_date" of relation "m_user]
+2025-09-13_13:18:43.988 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:18:44.625 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:19:20.366 [http-nio-8080-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:19:20.367 [http-nio-8080-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "nama" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (15d830d0-ed04-4216-b6ff-603d0d454eaf, admin, 2025-09-13 13:19:20.235742+07, 2025-09-13 13:19:20.235757+07, null, admin@gmail.com, null, null, $2a$10$31Pfwww0nsQe7/11sDgnSOenPkLWzzEuHvWCa11Xl9iitHTQJ50E6, ADMIN, AKTIF, null, admin, ADMIN).
+2025-09-13_13:19:20.370 [http-nio-8080-exec-1] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "nama" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (15d830d0-ed04-4216-b6ff-603d0d454eaf, admin, 2025-09-13 13:19:20.235742+07, 2025-09-13 13:19:20.235757+07, null, admin@gmail.com, null, null, $2a$10$31Pfwww0nsQe7/11sDgnSOenPkLWzzEuHvWCa11Xl9iitHTQJ50E6, ADMIN, AKTIF, null, admin, ADMIN).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [nama" of relation "m_user]
+2025-09-13_13:25:10.681 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:25:11.317 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:25:20.177 [http-nio-8080-exec-2] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_13:26:53.667 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:26:54.274 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:27:02.571 [http-nio-8080-exec-2] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_13:27:06.256 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:27:06.256 [http-nio-8080-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, admin@gmail.com, b93e5210-e198-4643-9bb7-8323620beadb, ADMIN, $2a$10$S/lFPmXrPU1DgTKoDfzQGeactGzDjQ/g4PA9f7qXN7rRJmQliHCee, ADMIN, AKTIF, null, null, admin).
+2025-09-13_13:27:06.259 [http-nio-8080-exec-3] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, admin@gmail.com, b93e5210-e198-4643-9bb7-8323620beadb, ADMIN, $2a$10$S/lFPmXrPU1DgTKoDfzQGeactGzDjQ/g4PA9f7qXN7rRJmQliHCee, ADMIN, AKTIF, null, null, admin).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_date" of relation "m_user]
+2025-09-13_13:27:35.829 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:27:36.450 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:27:42.698 [http-nio-8080-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:27:42.698 [http-nio-8080-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "modified_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (2025-09-13 13:27:42.598296+07, null, null, null, admin@gmail.com, 772d217d-d9c6-4b8f-8d2e-82c1c1508871, ADMIN, $2a$10$7N9JE8XeE.20jfxlQE88ROx7R4x9OOPc.MCpmWXAJKmn6bBvK1L62, ADMIN, AKTIF, null, null, admin).
+2025-09-13_13:27:42.701 [http-nio-8080-exec-1] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "modified_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (2025-09-13 13:27:42.598296+07, null, null, null, admin@gmail.com, 772d217d-d9c6-4b8f-8d2e-82c1c1508871, ADMIN, $2a$10$7N9JE8XeE.20jfxlQE88ROx7R4x9OOPc.MCpmWXAJKmn6bBvK1L62, ADMIN, AKTIF, null, null, admin).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [modified_date" of relation "m_user]
+2025-09-13_13:28:02.711 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:28:02.712 [http-nio-8080-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "modified_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (2025-09-13 13:28:02.619331+07, null, null, null, admin@gmail.com, 82607c99-da37-41d4-a0ea-c75d0ed17474, ADMIN, $2a$10$35AspxgaMRSJkk8MxlsOT.sbjlobbMTR62X.SznhxIzZ6Uic0Rn0G, ADMIN, AKTIF, null, null, admin).
+2025-09-13_13:28:02.712 [http-nio-8080-exec-3] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "modified_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (2025-09-13 13:28:02.619331+07, null, null, null, admin@gmail.com, 82607c99-da37-41d4-a0ea-c75d0ed17474, ADMIN, $2a$10$35AspxgaMRSJkk8MxlsOT.sbjlobbMTR62X.SznhxIzZ6Uic0Rn0G, ADMIN, AKTIF, null, null, admin).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [modified_date" of relation "m_user]
+2025-09-13_13:28:11.591 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:28:12.222 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:28:16.479 [http-nio-8080-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_13:28:16.480 [http-nio-8080-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (2025-09-13 13:28:16.373026+07, null, 2025-09-13 13:28:16.373046+07, null, admin@gmail.com, 1b407315-3267-4d3d-86f1-46d13b0e4a2b, ADMIN, $2a$10$DG5V4115jcJRN9MmBvLZie1GDYCMCtDmxdhtT/STIhLQSHM5AtjWS, ADMIN, AKTIF, null, null, admin).
+2025-09-13_13:28:16.483 [http-nio-8080-exec-1] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (2025-09-13 13:28:16.373026+07, null, 2025-09-13 13:28:16.373046+07, null, admin@gmail.com, 1b407315-3267-4d3d-86f1-46d13b0e4a2b, ADMIN, $2a$10$DG5V4115jcJRN9MmBvLZie1GDYCMCtDmxdhtT/STIhLQSHM5AtjWS, ADMIN, AKTIF, null, null, admin).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_by" of relation "m_user]
+2025-09-13_13:29:02.245 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_13:29:02.857 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_13:29:16.528 [http-nio-8080-exec-3] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_14:43:23.159 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_14:43:23.802 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_14:45:31.907 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_14:48:46.682 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_14:48:47.311 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_14:48:54.373 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_14:49:00.505 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_14:49:00.505 [http-nio-8080-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, admin@gmail.com, fa3257dc-4461-47c5-8e3e-a69e9b3ad970, ADMIN, $2a$10$LkYrfJhm2..4SzGkyYKmt.U1k8xZbsmMQiqfbRXjtdOZrgCUHCWqC, ADMIN, AKTIF, null, null, admin).
+2025-09-13_14:49:00.510 [http-nio-8080-exec-3] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, admin@gmail.com, fa3257dc-4461-47c5-8e3e-a69e9b3ad970, ADMIN, $2a$10$LkYrfJhm2..4SzGkyYKmt.U1k8xZbsmMQiqfbRXjtdOZrgCUHCWqC, ADMIN, AKTIF, null, null, admin).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_date" of relation "m_user]
+2025-09-13_15:17:56.654 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m9s690ms).
+2025-09-13_15:37:29.059 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m32s406ms).
+2025-09-13_15:39:13.755 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s696ms).
+2025-09-13_15:57:29.898 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m16s142ms).
+2025-09-13_16:01:11.043 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m41s145ms).
+2025-09-13_16:27:40.336 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:27:40.962 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:28:39.983 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-09-13_16:29:31.307 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:29:31.940 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:30:25.880 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:30:26.495 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:31:16.657 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:31:17.253 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:33:56.682 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:33:57.323 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:34:03.595 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-13_16:34:03.595 [http-nio-8080-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, admin@gmail.com, 11ca9436-fc1f-4f68-833b-f534a34fe4f5, ADMIN, $2a$10$ee3h7Ar6exlz/opzf94wGuQ2IlwmjNuTmbo73ZDlrY2naJT5128mK, ADMIN, AKTIF, null, null, admin).
+2025-09-13_16:34:03.600 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: could not execute statement [ERROR: null value in column "created_date" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, admin@gmail.com, 11ca9436-fc1f-4f68-833b-f534a34fe4f5, ADMIN, $2a$10$ee3h7Ar6exlz/opzf94wGuQ2IlwmjNuTmbo73ZDlrY2naJT5128mK, ADMIN, AKTIF, null, null, admin).] [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into m_user (created_by,created_date,email,expired_token_at,modified_date,name,password,role,status,token,updated_by,username,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [created_date" of relation "m_user]
+2025-09-13_16:40:54.500 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:40:55.125 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:43:08.068 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:43:08.477 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-13_16:43:08.477 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukrycw44p7cruupkosx3ibmj9q3" of relation "m_user" does not exist, skipping
+2025-09-13_16:43:08.479 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-13_16:43:08.479 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk645tec1gn2o13y2oew1lglx1q" of relation "m_user" does not exist, skipping
+2025-09-13_16:43:08.480 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-13_16:43:08.480 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukbrmb54ld0gqstogmb812xw951" of relation "m_user" does not exist, skipping
+2025-09-13_16:43:08.706 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:43:27.996 [http-nio-8080-exec-3] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: name: Nama tidak boleh kosong
+2025-09-13_16:44:20.049 [http-nio-8080-exec-4] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_16:45:11.148 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_16:45:11.890 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_16:45:14.216 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_16:58:53.115 [http-nio-8080-exec-4] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: name: Nama tidak boleh kosong
+2025-09-13_17:01:07.453 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/login.]
+2025-09-13_17:15:30.839 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_17:15:31.492 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_17:15:54.288 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_17:16:06.564 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.sinaukoding.library.management.model.response.BaseResponse<?> com.sinaukoding.library.management.controller.managementuser.UserController.findAll(org.springframework.data.domain.Pageable,com.sinaukoding.library.management.model.filter.UserFilterRecord)]
+2025-09-13_17:17:18.709 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_17:17:19.334 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_17:17:41.927 [http-nio-8080-exec-2] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_17:18:07.770 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:399)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.sinaukoding.library.management.util.JwtUtil.extractUsername(JwtUtil.java:31)
+	at com.sinaukoding.library.management.config.JwtAuthenticationConfig.doFilterInternal(JwtAuthenticationConfig.java:35)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-13_19:35:42.298 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_19:35:42.938 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_19:35:52.257 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.sinaukoding.library.management.model.response.BaseResponse<?> com.sinaukoding.library.management.controller.managementuser.UserController.register(com.sinaukoding.library.management.model.request.UserRequestRecord): [Field error in object 'userRequestRecord' on field 'name': rejected value [null]; codes [NotBlank.userRequestRecord.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRequestRecord.name,name]; arguments []; default message [name]]; default message [Nama tidak boleh kosong]] ]
+2025-09-13_19:35:57.794 [http-nio-8080-exec-4] WARN  c.s.l.m.s.m.impl.UserServiceImpl - Email sudah digunakan
+2025-09-13_19:35:57.794 [http-nio-8080-exec-4] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_20:03:40.357 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m57s848ms).
+2025-09-13_20:06:14.867 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s512ms).
+2025-09-13_20:13:04.324 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m49s456ms).
+2025-09-13_20:35:43.803 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_20:35:44.681 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_20:36:28.343 [http-nio-8080-exec-1] WARN  c.s.l.m.s.m.impl.UserServiceImpl - Email sudah digunakan
+2025-09-13_20:36:28.343 [http-nio-8080-exec-1] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_20:52:19.458 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_20:52:20.083 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_20:52:31.291 [http-nio-8080-exec-2] WARN  c.s.l.m.s.m.impl.UserServiceImpl - Email sudah digunakan
+2025-09-13_20:52:31.291 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_20:53:20.491 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_20:53:21.100 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_20:53:26.336 [http-nio-8080-exec-1] WARN  c.s.l.m.s.m.impl.UserServiceImpl - Email sudah digunakan
+2025-09-13_20:53:26.337 [http-nio-8080-exec-1] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_20:55:10.550 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_20:55:11.177 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_20:55:24.412 [http-nio-8080-exec-2] WARN  c.s.l.m.s.m.impl.UserServiceImpl - Email sudah digunakan
+2025-09-13_20:55:24.412 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_20:59:00.442 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_20:59:01.116 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_20:59:09.316 [http-nio-8080-exec-2] WARN  c.s.l.m.s.m.impl.UserServiceImpl - Email sudah digunakan
+2025-09-13_20:59:09.316 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_20:59:49.364 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_20:59:49.989 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_20:59:56.094 [http-nio-8080-exec-2] WARN  c.s.l.m.s.m.impl.UserServiceImpl - Email sudah digunakan
+2025-09-13_20:59:56.094 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_21:00:17.543 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:00:18.148 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:00:21.761 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_21:02:29.573 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:02:30.193 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:02:35.731 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_21:03:32.406 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:03:32.997 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:03:37.251 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_21:04:50.086 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:04:50.681 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:04:54.170 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_21:04:54.184 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: Email [admin@gmail.com] sudah digunakan]
+2025-09-13_21:05:15.612 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:05:16.216 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:05:19.960 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_21:05:19.975 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sinaukoding.library.management.config.DuplicateResourceException: Email [admin@gmail.com] sudah digunakan]
+2025-09-13_21:07:52.035 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:07:52.637 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:07:57.050 [http-nio-8080-exec-2] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [admin@gmail.com] sudah digunakan
+2025-09-13_21:07:57.066 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sun.jdi.request.DuplicateRequestException: Email [admin@gmail.com] sudah digunakan]
+2025-09-13_21:09:20.176 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:09:20.784 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:19:27.246 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:19:27.900 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:20:08.417 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.sinaukoding.library.management.model.response.BaseResponse<?> com.sinaukoding.library.management.controller.managementuser.UserController.findAll(org.springframework.data.domain.Pageable,com.sinaukoding.library.management.model.filter.UserFilterRecord)]
+2025-09-13_21:20:32.089 [http-nio-8080-exec-5] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_21:21:01.775 [http-nio-8080-exec-6] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [abi@gmail.com] sudah digunakan
+2025-09-13_21:21:01.780 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sun.jdi.request.DuplicateRequestException: Email [abi@gmail.com] sudah digunakan]
+2025-09-13_21:21:09.644 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.sinaukoding.library.management.model.response.BaseResponse<?> com.sinaukoding.library.management.controller.managementuser.UserController.register(com.sinaukoding.library.management.model.request.UserRequestRecord): [Field error in object 'userRequestRecord' on field 'name': rejected value [null]; codes [NotBlank.userRequestRecord.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRequestRecord.name,name]; arguments []; default message [name]]; default message [Nama tidak boleh kosong]] ]
+2025-09-13_21:21:19.579 [http-nio-8080-exec-9] ERROR c.s.l.m.s.m.impl.UserServiceImpl - Tambah data user gagal: Email [abi@gmail.com] sudah digunakan
+2025-09-13_21:21:19.583 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sun.jdi.request.DuplicateRequestException: Email [abi@gmail.com] sudah digunakan]
+2025-09-13_21:42:28.061 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:42:28.740 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:43:49.091 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:43:49.733 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:45:06.852 [http-nio-8080-exec-2] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_21:45:47.201 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.sinaukoding.library.management.model.enums.Role` from String "Member": not one of the values accepted for Enum class: [LIBRARIAN, MEMBER, ADMIN]]
+2025-09-13_21:47:59.627 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_21:48:00.282 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_21:48:20.025 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.sinaukoding.library.management.model.enums.Role` from String "Member": not one of the values accepted for Enum class: [LIBRARIAN, MEMBER, ADMIN]]
+2025-09-13_21:48:36.468 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.sinaukoding.library.management.model.enums.Status` from String "Aktif": not one of the values accepted for Enum class: [TIDAK_AKTIF, AKTIF, PENDING]]
+2025-09-13_21:48:44.533 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.validation.ConstraintViolationException: password: Password tidak boleh kosong, name: Nama tidak boleh kosong]
+2025-09-13_21:49:58.546 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.validation.ConstraintViolationException: password: Password tidak boleh kosong]
+2025-09-13_22:13:20.388 [http-nio-8080-exec-2] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_22:24:26.569 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_22:24:27.186 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_22:24:58.214 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-13_22:26:40.735 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.validation.ConstraintViolationException: name: Nama tidak boleh kosong]
+2025-09-13_22:26:55.584 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null]
+2025-09-13_22:27:06.711 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: User tidak ditemukan]
+2025-09-13_22:34:03.852 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource user/find-by-id/27899145-47ff-45c9-a3c6-f3bd6e082bcc.]
+2025-09-13_22:34:39.883 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource user/find-by-id/27899145-47ff-45c9-a3c6-f3bd6e082bcc.]
+2025-09-13_22:35:24.606 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_22:35:25.229 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_22:47:44.931 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_22:47:45.587 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_22:49:35.055 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.validation.ConstraintViolationException: username: must not be blank, password: must not be blank]
+2025-09-13_22:49:48.936 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: Username atau password salah]
+2025-09-13_22:50:22.952 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: Username atau password salah]
+2025-09-13_23:03:09.192 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s47ms).
+2025-09-13_23:08:05.170 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_23:08:05.876 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_23:09:18.855 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:399)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.sinaukoding.library.management.util.JwtUtil.extractUsername(JwtUtil.java:31)
+	at com.sinaukoding.library.management.config.JwtAuthenticationConfig.doFilterInternal(JwtAuthenticationConfig.java:35)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-13_23:09:20.953 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:399)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.sinaukoding.library.management.util.JwtUtil.extractUsername(JwtUtil.java:31)
+	at com.sinaukoding.library.management.config.JwtAuthenticationConfig.doFilterInternal(JwtAuthenticationConfig.java:35)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-13_23:27:56.614 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_23:27:57.246 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_23:29:19.655 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_23:29:20.299 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_23:38:17.743 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: File : produk/2025/09/10/1757498428164_image.png tidak ditemukan]
+2025-09-13_23:39:18.810 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: File : produk/2025/09/10/1757780991396_buku.jpeg tidak ditemukan]
+2025-09-13_23:39:26.869 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: File : produk/2025/09/13/1757780991396_buku.jpeg tidak ditemukan]
+2025-09-13_23:44:57.664 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_23:44:58.314 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_23:46:08.103 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-13_23:46:08.753 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-13_23:46:08.894 [restartedMain] WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/user/**, /file/**, file/view/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-09-13_23:47:18.887 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: File : 2025/09/13/1757781729667_image.png tidak ditemukan]

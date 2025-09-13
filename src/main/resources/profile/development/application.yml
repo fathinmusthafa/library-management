@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/ecommercedb
+    url: jdbc:postgresql://localhost:5432/librarymanagementdb
     username: postgres
     password: postgres
   jpa:
@@ -24,12 +24,12 @@ spring:
       max-request-size: 10MB
 
 app:
-  upload-directory: ecommerce-uploads
-  folder-temp: ./ecommerce-temp/
+  upload-directory: library-uploads
+  folder-temp: ./library-temp/
 
 logging:
   level:
-    com.sinaukoding.ecommerce: TRACE
+    com.sinaukoding.library.management: TRACE
 
 springdoc:
   api-docs:

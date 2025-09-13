@@ -1,0 +1,2 @@
+insert into m_user(created_by, created_date, email, expired_token_at, modified_date, name, password, role, status, token, updated_by, username) values (
+'ADMIN', now(), 'admin@gmail.com', '', now(), 'ADMIN', 'admin', 'ADMIN', 'AKTIF', '', 'ADMIN', 'admin');
