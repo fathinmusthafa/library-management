@@ -4,6 +4,7 @@ import com.sinaukoding.library.management.config.UserLoggedInConfig;
 import com.sinaukoding.library.management.model.request.LoginRequestRecord;
 import com.sinaukoding.library.management.model.response.BaseResponse;
 import com.sinaukoding.library.management.service.app.AuthService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +17,7 @@ public class AuthController {
     private final AuthService authService;
 
     @PostMapping("login")
-    public BaseResponse<?> login(@RequestBody LoginRequestRecord request) {
+    public BaseResponse<?> login(@Valid @RequestBody LoginRequestRecord request) {
         return BaseResponse.ok(null, authService.login(request));
     }
 

@@ -1,6 +1,7 @@
 package com.sinaukoding.library.management.repository.managementuser;
 
 import com.sinaukoding.library.management.entity.managementuser.User;
+import jakarta.validation.constraints.NotBlank;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

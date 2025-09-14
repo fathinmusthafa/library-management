@@ -1,5 +1,6 @@
 package com.sinaukoding.library.management.builder;
 
+import com.sinaukoding.library.management.entity.managementuser.User;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -123,5 +124,6 @@ public class CustomBuilder<T> {
         private MultipleCriteria multipleCriteria;
         private String operator;
     }
+
 
 }

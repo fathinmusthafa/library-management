@@ -11,6 +11,7 @@ public record UserRequestRecord(String id,
                                 @NotBlank(message = "Username tidak boleh kosong")String username,
                                 @NotBlank(message = "Password tidak boleh kosong")String password,
                                 @NotBlank(message = "Email tidak boleh kosong")String email,
-                                @NotNull(message = "Status tidak boleh kosong")Status status,
-                                @NotNull(message = "Role tidak boleh kosong")Role role) {
+                                Role role,
+                                Status status)
+{
 }

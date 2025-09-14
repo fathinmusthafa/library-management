@@ -1,19 +1,20 @@
 package com.sinaukoding.library.management.service.managementuser;
 
 import com.sinaukoding.library.management.model.app.SimpleMap;
+import com.sinaukoding.library.management.model.filter.MemberFilterRecord;
 import com.sinaukoding.library.management.model.filter.UserFilterRecord;
+import com.sinaukoding.library.management.model.request.MemberRequestRecord;
 import com.sinaukoding.library.management.model.request.UserRequestRecord;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
 
-public interface UserService {
+public interface MemberService {
 
-    void add(UserRequestRecord request);
+    void add(MemberRequestRecord request);
 
-    void edit(UserRequestRecord request);
+    void edit(MemberRequestRecord request);
 
-    Page<SimpleMap> findAll(UserFilterRecord filterRequest, Pageable pageable);
+    Page<SimpleMap> findAll(MemberFilterRecord filterRequest, Pageable pageable);
 
     SimpleMap findById(String id);
 
