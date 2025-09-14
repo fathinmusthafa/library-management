@@ -5,6 +5,8 @@
 
 ## branch master only ##
 
-Role ADMIN -> All Access
-Role LIBRARIAN -> /book/**, /member/**, /auhtor/**, /category/**, /fine/**, /transaction/**
-Role MEMBER -> /auth/**, /user/register , **/find-all
+`Role ADMIN -> All Access`
+
+`Role LIBRARIAN -> /book/**, /member/**, /auhtor/**, /category/**, /fine/**, /transaction/**`
+
+`Role MEMBER -> /auth/**, /user/register , **/find-all`
