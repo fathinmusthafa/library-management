@@ -57,7 +57,7 @@ public class FineServiceImpl implements FineService {
                 .orElseThrow(() -> new RuntimeException("Denda tidak ditemukan"));
 
         if (fine.getStatus() != FineStatus.OUTSTANDING) {
-            throw new RuntimeException("Denda sudah dibayar atau diwaive");
+            throw new RuntimeException("Denda sudah dibayar atau dibebaskan");
         }
 
         fine.setStatus(FineStatus.PAID);
@@ -88,8 +88,6 @@ public class FineServiceImpl implements FineService {
         Page<Fine> fines = fineRepository.findByFilters(
                 filterRequest.memberId(),
                 filterRequest.status(),
-                filterRequest.createdDateFrom(),
-                filterRequest.createdDateTo(),
                 pageable
         );
 
@@ -171,7 +169,7 @@ public class FineServiceImpl implements FineService {
     @Override
     public Page<SimpleMap> findMemberFines(String memberId, Pageable pageable) {
         FineFilterRecord filter = new FineFilterRecord(
-                memberId, null, null, null
+                memberId, null
         );
         return findAll(filter, pageable);
     }

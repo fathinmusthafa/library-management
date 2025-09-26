@@ -42,7 +42,7 @@ public class FineController {
     @PostMapping("waive/{id}")
     public BaseResponse<?> waiveFine(@PathVariable String id) {
         fineService.waiveFine(id);
-        return BaseResponse.ok("Denda berhasil diwaive", null);
+        return BaseResponse.ok("Denda berhasil dibebaskan", null);
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','LIBRARIAN')")

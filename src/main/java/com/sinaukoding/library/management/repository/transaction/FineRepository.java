@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
@@ -22,14 +23,10 @@ public interface FineRepository extends JpaRepository<Fine, String>, JpaSpecific
 
     @Query("SELECT f FROM Fine f WHERE " +
             "(:memberId IS NULL OR f.borrowTransaction.member.id = :memberId) AND " +
-            "(:status IS NULL OR f.status = :status) AND " +
-            "(:createdDateFrom IS NULL OR f.createdDate >= :createdDateFrom) AND " +
-            "(:createdDateTo IS NULL OR f.createdDate <= :createdDateTo)")
+            "(:status IS NULL OR f.status = :status)")
     Page<Fine> findByFilters(
             @Param("memberId") String memberId,
             @Param("status") FineStatus status,
-            @Param("createdDateFrom") LocalDateTime createdDateFrom,
-            @Param("createdDateTo") LocalDateTime createdDateTo,
             Pageable pageable);
 
 }

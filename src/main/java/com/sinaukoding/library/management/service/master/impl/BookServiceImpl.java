@@ -179,6 +179,20 @@ public class BookServiceImpl implements BookService {
                 data.put("category", null);
             }
 
+            if (book.getAuthors() != null && !book.getAuthors().isEmpty()) {
+                List<SimpleMap> authorsData = book.getAuthors().stream().map(author -> {
+                    SimpleMap authorData = new SimpleMap();
+                    authorData.put("id", author.getId());
+                    authorData.put("name", author.getName());
+                    authorData.put("biography", author.getBiography());
+                    authorData.put("birthDate", author.getBirthDate());
+                    return authorData;
+                }).toList();
+                data.put("authors", authorsData);
+            } else {
+                data.put("authors", Collections.emptyList());
+            }
+
             return data;
         }).toList();
 

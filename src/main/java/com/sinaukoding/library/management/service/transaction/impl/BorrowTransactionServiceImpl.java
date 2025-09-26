@@ -128,6 +128,7 @@ public class BorrowTransactionServiceImpl implements BorrowTransactionService {
             }
             // Hitung denda (5000 per hari)
             BigDecimal fineAmount = BigDecimal.valueOf(daysOverdue * 5000);
+            log.info(String.valueOf(fineAmount));
 
             Fine fine = new Fine();
             fine.setBorrowTransaction(transaction);

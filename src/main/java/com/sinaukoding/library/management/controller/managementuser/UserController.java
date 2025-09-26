@@ -25,7 +25,7 @@ public class UserController {
 
 
     @PostMapping("register")
-    @PreAuthorize("hasAnyRole('ADMIN','LIBRARIAN','MEMBER')")
+//    @PreAuthorize("hasAnyRole('ADMIN','LIBRARIAN','MEMBER')")
     public BaseResponse<?> register(@Valid @RequestBody UserRequestRecord request){
         userService.add(request);
         return BaseResponse.ok("Data berhasil disimpan", null);
